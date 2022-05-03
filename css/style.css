@@ -58,6 +58,12 @@ h2{
     padding-bottom: 30px;
 }
 
+h3{
+    padding: 23px 0 10px 0 ;
+    font-size: 20px;
+    font-weight: 900;
+}
+
 .dot{
     display: inline-block;
     width: 14px;
@@ -143,7 +149,7 @@ h1{
 
 /* subsciption-plan */
 .subsciption-plan{
-    padding: 140px 0;
+    padding: 140px 0 35px 0;
 }
 
 .billing{
@@ -170,7 +176,7 @@ h1{
 .table{
     width: calc( (100% / 3) - 25px);
     border: 1px solid lightgrey;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
 }
 .table-title{
     font-size: 13px;
@@ -198,12 +204,6 @@ h1{
 .table-text{
     font-size: 12px;
     font-weight: 500;
-}
-
-.table-middle h3{
-    padding: 25px 0 10px 0 ;
-    font-size: 18px;
-    font-weight: 900;
 }
 
 .price{
@@ -239,7 +239,7 @@ h1{
 }
 
 /* table bottom */
-.more-info-title{
+.more-info-title {
     padding: 50px 0 20px 0;
     font-size: 13px;
     font-weight: 800;
@@ -254,5 +254,32 @@ ul.table-text i{
     font-weight: 900;
 }
 
+/* Horizon table */
+.horizon-table{
+    border: 1px solid lightgrey;
+}
+
+.enterprise-table{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact-title{
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.enterprise-table .table-text{
+    padding: 20px 0;
+}
+
+.button-enterprise{
+    padding: 5px 60px;
+    position: absolute;
+    top: 23px;
+    right: 0%;
+
+}
 
 
