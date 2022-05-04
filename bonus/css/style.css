@@ -452,6 +452,10 @@ h1{
 /* SECTION 6 Q&A */
 .questions{
     padding: 70px 0 90px 0;
+    position: relative;
+
+    /* TEST */
+    /* background-color: lightcoral; */
 }
 
 .questions h3{
@@ -469,15 +473,69 @@ h1{
     justify-content: space-between;
 }
 
-.question-row p, .question-row i{
+.question-text, .angle{
     padding: 25px 0;
     font-size: 13px;
     font-weight: 700;
 }
 
-.question-row i{
+.angle{
     padding-right: 20px;
 }
+
+/* Pop Up */
+.pop-up{
+    width: 200px;
+    border-radius: 30px;
+    background-color: #edf9ffeb;
+    display: none;
+}
+
+.pop-up-info{
+    color: rgb(146, 156, 185);
+    width: 75%;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-size: 8px;
+}
+
+.pop-up h5{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 13px;
+    color: rgb(146, 156, 185);
+    border-bottom: 1px solid rgba(146, 156, 185, 0.276);
+}
+
+.pop-up.first-answer{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.pop-up.second-answer{
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.pop-up.third-answer{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
+
+.pop-up.fourth-answer{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+}
+
+/* Hover */
+.angle:hover .pop-up{
+    display: block;
+}
+
 
 /* FOOTER */
 .footer-container{
