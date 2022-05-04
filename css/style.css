@@ -245,11 +245,11 @@ h1{
     font-size: 13px;
     font-weight: 800;
 }
-.offered-list li{
+.offered-list{
     padding-bottom: 20px;
 }
 
-.offered-list li i{
+.offered-list i{
     color: #1e74ff;
     font-size: 15px;
     font-weight: 900;
