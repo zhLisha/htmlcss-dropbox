@@ -420,3 +420,31 @@ h1{
 .clear-channel{
     background-color: #ffd830;
 }
+
+/* Section 5 Free trial */
+.free-trial{
+    background-color: #b4d0e7;
+}
+
+.free-trial h2{
+    color: #61082b;
+}
+
+.content-free-trial{
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    position: relative;
+}
+.content-free-trial .title{
+    width: 50%;
+}
+
+.content-free-trial .btn{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    background-color: white;
+    color: black;
+    padding: 5px 50px;
+}
