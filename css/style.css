@@ -147,6 +147,7 @@ h1{
     top: 245px;
 }
 
+/* SECTION 1 */
 /* subsciption-plan */
 .subsciption-plan{
     padding: 140px 0 35px 0;
@@ -224,7 +225,7 @@ h1{
 
 
 .button-middle{
-    margin: 20px 0 15px 0;
+    margin: 20px 0 20px 0;
     padding: 6px 30px;
     font-size: 11px;
 }
@@ -244,18 +245,18 @@ h1{
     font-size: 13px;
     font-weight: 800;
 }
-ul.table-text li{
+.offered-list li{
     padding-bottom: 20px;
 }
 
-ul.table-text i{
+.offered-list li i{
     color: #1e74ff;
     font-size: 15px;
     font-weight: 900;
 }
 
 /* Horizon table */
-.horizon-table{
+.border-enterprise{
     border: 1px solid lightgrey;
 }
 
@@ -283,3 +284,33 @@ ul.table-text i{
 }
 
 
+/* SECTION 2 */
+.partner{
+    padding: 100px 0;
+}
+
+.container-partner{
+    justify-content: space-between;
+}
+
+.img-partner{
+    width: 60%;
+    padding-right: 30px;
+}
+
+.info-partner{
+    width: 40%;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+
+.info-partner p{
+    padding: 20px 0;
+}
+
+.info-partner .btn{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
