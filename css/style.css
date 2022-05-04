@@ -332,4 +332,91 @@ h1{
     padding: 0 0 20px 0;
 }
 
-/* SECTION 4 */
+/* SECTION 4 TITLE AND CONTENT */
+.paragraph.decor-underline{
+    color: #448bff;
+}
+
+.companies-container{
+    padding-top: 40px;
+}
+
+.companies-content{
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.column{
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.column img{
+    filter: invert();
+}
+
+
+.column-center{
+    width: 40%;
+}
+
+.content-column-center{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-column-center img{
+    padding: 40px 0 20px 0;
+}
+
+.small-hr{
+    width: 35px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.text-column-center{
+    padding-top: 40px;
+}
+.text-column-center p{
+    font-weight: 700;
+}
+
+/* square */
+.square{
+    width: calc(100% / 2);
+    height: 180px;
+    justify-content: center;
+}
+
+.square img, .column-center img{
+    width: 100px;
+}
+.square.florida img{
+    object-fit: contain;
+}
+
+.designit{
+    background-color: #a2d39b;
+    border: 8px solid #d0e9cd;
+}
+.asu{
+    background-color: #61082b;
+}
+.florida{
+    background-color: #0093ce;
+}
+.stopps{
+    background-color: #ff1c1c;
+}
+.bicycle{
+    background-color: #d5001f;
+}
+.heart-corp{
+    background-color: #b4d0e7;
+}
+.lovely-planet{
+    background-color: #0d2481;
+}
+.clear-channel{
+    background-color: #ffd830;
+}
