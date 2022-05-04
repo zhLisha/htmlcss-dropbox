@@ -145,7 +145,7 @@ h1{
 
 /* img jumbotron */
 .image-jumbotron{
-    width: 620px;
+    width: 650px;
     position: absolute;
     right: 0;
     top: 245px;
@@ -433,7 +433,7 @@ h1{
 .content-free-trial{
     justify-content: center;
     align-items: center;
-    padding: 70px 0;
+    padding: 90px 0 70px 0;
     position: relative;
 }
 .content-free-trial .title{
@@ -442,9 +442,88 @@ h1{
 
 .content-free-trial .btn{
     position: absolute;
-    top: 75px;
+    top: 90px;
     right: 0;
     background-color: white;
     color: black;
     padding: 5px 50px;
+}
+
+/* SECTION 6 Q&A */
+.questions{
+    padding: 70px 0 90px 0;
+}
+
+.questions h3{
+    font-size: 25px;
+    width: 80%;
+    padding-bottom: 40px;
+}
+
+.long-hr{
+    border-bottom: 1px solid #eaeaeb;
+    width: 100%;
+}
+
+.question-row{
+    justify-content: space-between;
+}
+
+.question-row p, .question-row i{
+    padding: 25px 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.question-row i{
+    padding-right: 20px;
+}
+
+/* FOOTER */
+.footer-container{
+    background-color: black;
+    color: white;
+}
+
+.footer-container .container-big .flex-content{
+    justify-content: space-between;
+}
+
+.footer-container .container-big{
+    padding: 70px 0 25px 0;
+}
+
+.col-footer{
+    width: calc((100% /5) - 70px);
+}
+
+.list-title{
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.list-info{
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.footer-hr{
+    padding-top: 50px;
+    border-bottom: 1px solid #4f4f4f;
+    width: 10%;
+}
+
+.languages{
+    color: #4f4f4f;
+    padding-top: 30px ;
+    font-size: 10px;
+}
+
+.languages i:first-child{
+    color: #979797;
+}
+
+.languages i:last-child{
+    font-size: 8px;
 }
