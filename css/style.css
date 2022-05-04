@@ -64,6 +64,10 @@ h3{
     font-weight: 900;
 }
 
+.decor-underline{
+    text-decoration: underline;
+}
+
 .dot{
     display: inline-block;
     width: 14px;
@@ -286,7 +290,7 @@ h1{
 
 /* SECTION 2 */
 .partner{
-    padding: 100px 0;
+    padding: 100px 0 80px 0;
 }
 
 .container-partner{
@@ -295,15 +299,13 @@ h1{
 
 .img-partner{
     width: 60%;
-    padding-right: 30px;
+    padding-right: 40px;
 }
 
 .info-partner{
     width: 40%;
-    padding-top: 30px;
-    padding-left: 10px;
-}
 
+}
 
 .info-partner p{
     padding: 20px 0;
@@ -314,3 +316,20 @@ h1{
     background-color: white;
     border: 2px solid black;
 }
+
+/* SECTION 3 */
+.all-options{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.col{
+    padding:20px 0 40px 0 ;
+    width: calc( (100% / 3) - 30px);
+}
+.col h3{
+    padding: 0 0 20px 0;
+}
+
+/* SECTION 4 */
