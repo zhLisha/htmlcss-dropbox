@@ -342,7 +342,7 @@ h1{
 }
 
 .companies-content{
-    height: 360px;
+    height: 400px;
     background-color: #f5f5f5;
 }
 
@@ -351,6 +351,7 @@ h1{
     flex-shrink: 0;
     width: 400px;
 }
+
 
 .column img{
     filter: invert();
