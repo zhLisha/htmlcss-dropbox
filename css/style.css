@@ -347,18 +347,15 @@ h1{
 }
 
 .column{
-    width: 30%;
     flex-wrap: wrap;
+    flex-shrink: 0;
+    width: 400px;
 }
 
 .column img{
     filter: invert();
 }
 
-
-.column-center{
-    width: 40%;
-}
 
 .content-column-center{
     width: 80%;
@@ -384,7 +381,7 @@ h1{
 /* square */
 .square{
     width: calc(100% / 2);
-    height: 180px;
+    height: calc(100% / 2);
     justify-content: center;
 }
 

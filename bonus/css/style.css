@@ -284,7 +284,6 @@ h1{
     position: absolute;
     top: 23px;
     right: 0%;
-
 }
 
 
@@ -347,17 +346,14 @@ h1{
 }
 
 .column{
-    width: 30%;
+    width: 400px;
     flex-wrap: wrap;
+    flex-shrink: 0;
 }
+
 
 .column img{
     filter: invert();
-}
-
-
-.column-center{
-    width: 40%;
 }
 
 .content-column-center{
@@ -384,7 +380,7 @@ h1{
 /* square */
 .square{
     width: calc(100% / 2);
-    height: 180px;
+    height: calc(100% / 2);
     justify-content: center;
 }
 
@@ -399,6 +395,8 @@ h1{
     background-color: #a2d39b;
     border: 8px solid #d0e9cd;
 }
+
+
 .asu{
     background-color: #61082b;
 }
@@ -453,9 +451,6 @@ h1{
 .questions{
     padding: 70px 0 90px 0;
     position: relative;
-
-    /* TEST */
-    /* background-color: lightcoral; */
 }
 
 .questions h3{
